@@ -4,7 +4,7 @@ import styles from './App.module.scss';
 function App() {
   
   return (
-    <p className={styles.textRed}>
+    <p className={`${styles.textRed} bg-blue-500`}>
       my text
     </p>
   );
